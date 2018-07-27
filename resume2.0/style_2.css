@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+*{
+    padding: 0;    
+}
+
+body, html{
+    height: 100%;
+}
+
+.title{
+    width: 200px;
+    height: 100%;
+    float: left;
+    background-color: rgb(129, 157, 248);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.content{
+    float: left;
+    margin-left: 20px;
+}
+
+.content::after{
+    content: "";
+    clear: both;
+}
+
+.item-title{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.basic-info-content, .contact-info-content{
+    display: flex;
+    width: 550px;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
