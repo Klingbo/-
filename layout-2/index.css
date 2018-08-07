@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.head{    
+    height: 80px;
+    background: #333333;    
+}
+
+.head-content{    
+    width: 960px;    
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 15px;    
+}
+
+.link{
+    float: right;
+    margin-top: 10px;
+}
+
+.link a{    
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+.banner{
+    height: 300px;
+    background-color: #66bb33;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.order{
+    height: 52px;
+    float: right;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 230px;
+    margin-right: 200px;
+}
+
+.order div{    
+    width: 30px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #b2dd99;
+    border: 1px solid #335e1a;
+    margin-right: 5px;
+}
+
+.order div:hover, .order div:focus{
+    width: 30px;
+    height: 51px;
+    background-color: white;
+}
+
+.nav-content{
+    width: 960px;
+    margin: 20px auto 0;
+    /* overflow: hidden; */
+}
+
+.nav-content div{
+    float: left;
+    width: 106px;
+    height: 52px;
+    line-height: 52px;
+    border: 1px solid #cccccc;    
+    border-radius: 20px 20px 0 0;
+    background-color: #eeeeee;
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+.nav-content::after{
+    content: "";
+    height: 0;
+    clear: both;
+    display: block;
+}
+
+.nav-content div:hover, .nav-content div:focus{
+    background-color: white;
+    border-bottom-color: white;
+}
+
+.nav{
+    border-bottom: 1px solid #dddddd;
+}
+
+.main{
+    /* height: 540px; */
+    width: 960px;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.row1, .row2, .row3{
+    display: flex;
+    flex: 1;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+}
+
+.row1 div, .row2 div, .row3 div{
+    flex: 1;
+    border: 1px solid #cccccc;
+    min-width: 160px;
+    min-height: 160px;
+}
+
+.row1-2, .row3-2{
+    margin: 0 10px;
+}
+
+.row2-1, .row2-2, .row2-3{
+    margin-right: 10px;
+}
+
+.row2{
+    margin: 10px 0;
+}
+
+.footer{
+    height: 120px;
+    background-color: #666666;
+    overflow: hidden;
+}
+
+.footer p{
+    margin-top: 20px;
+    text-align: center;
+}
