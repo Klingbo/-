@@ -1,9 +1,9 @@
 # 百度前端学院作业
 layout1中存放的是CSS布局的作业，具体文件如下：
-1. [2栏-左30%-右70%-flex](https://klingbo.github.io/IFE-Homework/layout-1/2栏-左30%25-右70%25-flex.html)
-2. [2栏-左30%-右70%-flex](https://klingbo.github.io/IFE-Homework/layout-1/2栏-左30%-右70%-flex.html)
-3. [2栏-左30%-右70%-定位](https://klingbo.github.io/IFE-Homework/layout-1/2栏-左30%-右70%-定位.html)
-4. [2栏-左30%-右70%-浮动](https://klingbo.github.io/IFE-Homework/layout-1/2栏-左30%-右70%-浮动.html)
+1. [2栏-左30%-右70%-flex](https://klingbo.github.io/IFE-Homework/layout-1/2栏-左30-右70-flex.html)
+2. [2栏-左30%-右70%-flex](https://klingbo.github.io/IFE-Homework/layout-1/2栏-左30-右70-flex.html)
+3. [2栏-左30%-右70%-定位](https://klingbo.github.io/IFE-Homework/layout-1/2栏-左30-右70-定位.html)
+4. [2栏-左30%-右70%-浮动](https://klingbo.github.io/IFE-Homework/layout-1/2栏-左30-右70-浮动.html)
 5. [2栏-左变右固-flex](https://klingbo.github.io/IFE-Homework/layout-1/2栏-左变右固-flex.html)
 6. [2栏-左变右固-定位](https://klingbo.github.io/IFE-Homework/layout-1/2栏-左变右固-定位.html)
 7. [2栏-左变右固-浮动](https://klingbo.github.io/IFE-Homework/layout-1/2栏-左变右固-浮动.html)
