@@ -16,3 +16,6 @@
 
 ### layout2中存放的是网页布局的作业，目标是创建一个拥有简单布局的页面
 [简单布局](https://klingbo.github.io/IFE-Homework/layout-2/index.html)
+
+### resume2.0存放的是简历作业，要求给同一个页面设计3种样式，只要更换CSS引用就能更改页面样式
+[简历](https://klingbo.github.io/IFE-Homework/resume2.0/resume.html)
