@@ -1,51 +1,57 @@
-@charset "utf-8";
-
-*{
-    padding: 0;    
+* {
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.item-title{
-    font-weight: bold;
-    margin-right: 10px;
+ul {
+  list-style: none;
 }
 
-.content{
-    margin-top: -22px;
+body {
+  margin: 0;
 }
 
-.title h1{
-    height: 70px;
-    background-color: #666666;
-    padding-top: 30px;
-    padding-left: 20px;    
+.title {
+  height: 100px;
+  margin: 0;
+  background: #aaa;
+  padding-left: 50px;
 }
 
-.sub-content{
-    display: flex;    
-    height: 200px;    
-    border: 1px solid #f3f3f3;
-    white-space: nowrap;
+.sub-title {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background: #ddd;
+
 }
 
 .sub-title{
-    width: 200px;
-    height: 140px;
-    background-color: #e0e0e0;
-    text-align: center;
-    padding-top: 60px;
+  margin: 0;
 }
 
-.ability-description .item-title, .education-experience .item-title, 
-.project-experience .item-title{
-    float: left;
-    margin-left: 20px;
+.detail-item-title {
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.basic-info-content .detail-info, .contact-info-content .detail-info{
-    margin-right: 20px;
+.main>div{
+  border-bottom: 1px solid #ccc;
+  display: flex
 }
 
-.contact-info-content, .basic-info-content{
-    margin-top: 16px;
-    margin-left: 20px;
+.basic-info .detail, .contact-info .detail {
+  display: flex;
+}
+.basic-info .detail .detail-item, .contact-info .detail .detail-item{
+  margin-left: 20px;
+}
+
+.education .detail .detail-item,.ability .detail .detail-item,.subject .detail .detail-item{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
