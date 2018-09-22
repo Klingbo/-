@@ -1,18 +1,29 @@
-@charset "utf-8";
-
-*{
-    padding: 0;
-    
+* {
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.item-title{
-    font-weight: bold;
-    margin-right: 10px;
+ul {
+  list-style: none;
 }
 
-.basic-info-content, .contact-info-content{
-    display: flex;
-    width: 550px;
-    flex-flow: row;
-    justify-content: space-between;
+.sub-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.basic-info .detail,
+.contact-info .detail {
+  overflow: hidden;
+}
+
+.basic-info .detail .detail-item,
+.contact-info .detail .detail-item {
+  float: left;
+  margin-right: 15px;
+}
+
+.detail-item-title {
+  font-size: 16px;
+  font-weight: bold;
 }
