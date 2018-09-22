@@ -40,7 +40,8 @@ body {
 
 .main>div{
   border-bottom: 1px solid #ccc;
-  display: flex
+  display: flex;
+  width: 800px;
 }
 
 .basic-info .detail, .contact-info .detail {
