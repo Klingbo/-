@@ -20,3 +20,7 @@
 ### resume2.0存放的是简历作业，要求给同一个页面设计3种样式，只要更换CSS引用就能更改页面样式
 [简历](https://klingbo.github.io/IFE-Homework/resume2.0/resume.html) 
 我在页面上写了个js脚本用于切换3样式,但是后时候显示不出来,刷新一下就好.
+
+### webpage存放的是一个简单的网页的作业
+主要用到了flex布局，sass编写css,gulp-sass的安装与应用
+点击[这里](https://klingbo.github.io/IFE-Homework/webpage/index.html)可以预览网页效果
