@@ -1,0 +1,364 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Acumin Variable Concept"; }
+
+a {
+  text-decoration: none;
+  color: #111; }
+
+.layer-gap {
+  border-top: 1px solid #ccc; }
+
+html::-webkit-scrollbar {
+  width: 2px;
+  height: 2px; }
+
+html::-webkit-scrollbar-thumb {
+  background: #111;
+  border-radius: 5px; }
+
+html::-webkit-scrollbar-track {
+  background: #ccc; }
+
+header {
+  width: 100%;
+  height: 780px;
+  color: #fff;
+  text-align: center;
+  padding-top: 165px;
+  background: url("../img/01.png") no-repeat;
+  background-clip: border-box; }
+  header .container {
+    width: 936px;
+    margin: 0 auto; }
+    header .container > .title {
+      font-size: 48px; }
+    header .container > .sub-title {
+      width: 608px;
+      font-size: 16px;
+      line-height: 22px;
+      white-space: normal;
+      position: relative;
+      margin: 70px auto 82px;
+      opacity: 0.5; }
+    header .container .sign-up-form {
+      width: 776px;
+      height: 204px;
+      position: relative;
+      margin: 0 auto;
+      border: 1px solid #524c3a;
+      padding-top: 50px; }
+      header .container .sign-up-form .title {
+        font-size: 16px; }
+      header .container .sign-up-form .sub-title {
+        font-size: 12px;
+        opacity: 0.5;
+        margin: 15px 0 38px 0; }
+      header .container .sign-up-form .account-info {
+        display: flex;
+        justify-content: center; }
+        header .container .sign-up-form .account-info input[type="text"] {
+          width: 234px;
+          height: 42px;
+          color: #fff;
+          border: 1px solid #524c3a;
+          background: transparent;
+          margin-right: 24px;
+          outline: none; }
+        header .container .sign-up-form .account-info input[type="button"] {
+          width: 102px;
+          height: 42px;
+          border-radius: 2px;
+          outline: none;
+          border: 1px solid #fff;
+          cursor: pointer; }
+
+.features-9 {
+  width: 936px;
+  height: 560px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 68px; }
+  .features-9 > .title {
+    margin: 38px auto 66px;
+    line-height: 37px;
+    width: 550px;
+    font-size: 33px; }
+  .features-9 .features {
+    height: 224px;
+    width: 820px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between; }
+    .features-9 .features > div {
+      width: 280px;
+      text-align: left; }
+      .features-9 .features > div .title {
+        font-weight: bold; }
+      .features-9 .features > div .iconfont {
+        font-size: 30px;
+        position: relative;
+        left: -54px;
+        top: 35px; }
+      .features-9 .features > div .content {
+        font-size: 12px;
+        margin-top: 20px; }
+    .features-9 .features div:nth-of-type(odd) {
+      margin-right: 135px; }
+
+.call-to-cation {
+  min-width: 1280px;
+  height: 640px;
+  background: url("../img/02.png") no-repeat;
+  color: #fff;
+  position: relative;
+  overflow: hidden; }
+  .call-to-cation .text {
+    width: 406px;
+    float: left;
+    margin: 150px 0 0 250px; }
+    .call-to-cation .text > .title {
+      width: 320px;
+      font-size: 34px; }
+    .call-to-cation .text > .sub-title {
+      font-size: 14px;
+      width: 320px;
+      margin: 40px 0;
+      opacity: 0.5; }
+    .call-to-cation .text > input {
+      width: 190px;
+      height: 50px; }
+    .call-to-cation .text .try {
+      background: transparent;
+      border: 1px solid #524c3a;
+      color: #fff;
+      outline: none;
+      margin-left: 20px; }
+  .call-to-cation .pad {
+    width: 564px;
+    height: 482px;
+    position: absolute;
+    top: 84px;
+    right: -48px;
+    border: 1px solid #6f7373;
+    border-radius: 30px;
+    text-align: center;
+    padding: 22px 0 0 48px; }
+    .call-to-cation .pad .home-button {
+      width: 10px;
+      height: 10px;
+      border: 1px solid #6f7373;
+      border-radius: 50%;
+      position: relative;
+      top: 50%;
+      left: -24px;
+      margin-top: -5px; }
+    .call-to-cation .pad .screen {
+      width: 468px;
+      height: 430px;
+      color: #111;
+      background: #fff;
+      padding-top: 60px; }
+      .call-to-cation .pad .screen > .title {
+        margin-left: 340px;
+        font-size: 24px; }
+      .call-to-cation .pad .screen > .sub-title {
+        font-size: 14px;
+        margin: 20px 0 58px 190px;
+        white-space: nowrap; }
+      .call-to-cation .pad .screen .deatils-list {
+        margin-left: 46px;
+        display: flex;
+        flex-flow: row nowrap;
+        text-align: left; }
+        .call-to-cation .pad .screen .deatils-list > div {
+          width: 142px;
+          height: 200px;
+          margin-right: 22px;
+          box-shadow: 1px 2px #ccc; }
+          .call-to-cation .pad .screen .deatils-list > div img {
+            width: 142px;
+            height: 110px; }
+          .call-to-cation .pad .screen .deatils-list > div .title {
+            margin: 8px 0 0 12px;
+            font-weight: bold; }
+          .call-to-cation .pad .screen .deatils-list > div .content {
+            margin: 8px 0 0 12px;
+            font-size: 12px; }
+
+.feature-19 {
+  width: 936px;
+  height: 466px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px; }
+  .feature-19 > .title {
+    font-size: 34px; }
+  .feature-19 .details-list {
+    margin-top: 68px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center; }
+    .feature-19 .details-list div {
+      width: 218px;
+      font-size: 12px; }
+      .feature-19 .details-list div .content {
+        margin-top: 36px; }
+
+.feature-14 {
+  height: 800px;
+  width: 936px;
+  margin: 0 auto;
+  padding: 90px 80px 0; }
+  .feature-14 img {
+    width: 456px;
+    height: 280px; }
+  .feature-14 .title {
+    font-size: 16px;
+    font-weight: bold; }
+  .feature-14 .feature1 {
+    margin-bottom: 66px; }
+    .feature-14 .feature1 .feature-item {
+      float: right; }
+      .feature-14 .feature1 .feature-item .title {
+        width: 224px;
+        margin: 60px 0 30px; }
+      .feature-14 .feature1 .feature-item .content {
+        width: 240px;
+        font-size: 12px; }
+  .feature-14 .feature2 .feature-item {
+    float: left;
+    margin-right: 30px; }
+    .feature-14 .feature2 .feature-item .title {
+      width: 270px;
+      margin: 60px 0 30px; }
+    .feature-14 .feature2 .feature-item .content {
+      width: 240px;
+      font-size: 12px; }
+
+.team {
+  width: 936px;
+  margin: 0 auto;
+  padding: 80px;
+  text-align: center; }
+  .team > .title {
+    font-size: 34px; }
+  .team .sub-title {
+    font-size: 14px;
+    width: 558px;
+    line-height: 18px;
+    margin: 24px auto 54px; }
+  .team .team-member {
+    height: 568px;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    align-content: space-between; }
+  .team .first-cover {
+    overflow: hidden; }
+    .team .first-cover .cover {
+      width: 376px;
+      height: 272px;
+      color: #fff;
+      padding-top: 86px;
+      background: rgba(20, 20, 20, 0.65);
+      position: absolute;
+      left: -376px;
+      transition: left 0.5s ease;
+      cursor: pointer; }
+      .team .first-cover .cover .name {
+        font-weight: bold; }
+      .team .first-cover .cover .title {
+        font-size: 12px;
+        opacity: 0.5;
+        margin: 10px 0 30px; }
+      .team .first-cover .cover i {
+        font-size: 40px; }
+      .team .first-cover .cover .icon-twittercircle {
+        margin: 0 24px; }
+    .team .first-cover:hover .cover {
+      left: 0; }
+
+.contact {
+  width: 936px;
+  height: 560px;
+  margin: 0 auto;
+  padding: 56px 80px 0; }
+  .contact .form {
+    float: left;
+    width: 364px;
+    height: 450px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding-top: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center; }
+    .contact .form > .title {
+      font-weight: bold;
+      margin-bottom: 36px; }
+    .contact .form input {
+      width: 295px;
+      height: 40px;
+      margin-bottom: 24px; }
+    .contact .form textarea {
+      width: 295px;
+      height: 115px;
+      margin-bottom: 24px;
+      resize: none; }
+    .contact .form input[type=button] {
+      color: #fff;
+      background: #111;
+      outline: none;
+      border: none; }
+  .contact .contact-info {
+    float: right; }
+    .contact .contact-info .title {
+      font-size: 34px;
+      margin-top: 70px; }
+    .contact .contact-info .description {
+      font-size: 12px;
+      width: 288px;
+      margin: 34px 0 60px; }
+    .contact .contact-info .map > p, .contact .contact-info .phone > p, .contact .contact-info .e-mail > p {
+      position: relative;
+      left: 32px;
+      top: -24px; }
+    .contact .contact-info .icon-Map, .contact .contact-info .icon-phone {
+      font-size: 22px; }
+
+footer {
+  height: 328px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px; }
+  footer a {
+    color: #fff;
+    opacity: 0.5; }
+  footer .title {
+    font-weight: bold; }
+  footer > div {
+    width: 240px;
+    height: 160px;
+    flex: 0 0 240px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between; }
+  footer .socials {
+    height: 120px;
+    margin-top: -40px; }
+    footer .socials .medias {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between; }
