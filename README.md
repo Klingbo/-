@@ -24,3 +24,7 @@
 ### webpage存放的是一个简单的网页的作业
 主要用到了flex布局，sass编写css,gulp-sass的安装与应用
 点击[这里](https://klingbo.github.io/IFE-Homework/webpage/index.html)可以预览网页效果
+
+### you_xuan_app是优选网APP作业，写了一个APP首页和购物车的页面。主要用到了百分比布局，flex弹性盒子布局，另外用了zepto库，iScroll库，swiper库。hotcss库。主要学习了弹性盒子在移动端的应用；1像素问题的处理：::before，尺寸设为200%再缩放为一半；点击穿透的处理：1.整个个页面都不使用click事件，2.取消默认事件。此外还练习了scss样式的编写，gulp-sass的安装与使用。
+点击[这里](https://klingbo.github.io/IFE-Homework/you_xuan_app/src/index.html)可以预览首页;
+点击[这里](https://klingbo.github.io/IFE-Homework/you_xuan_app/src/cart.html)可以预览购物车.
