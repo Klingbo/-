@@ -1,0 +1,461 @@
+@import '_base.scss';
+
+$pading11: 0 0.22rem;
+$padding32:0.14rem 0.32rem 0;
+// 头部导航
+.top-hd {
+  width: 100%;
+  height: 38px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  // logo区域
+  padding: 0 11px;
+  background: -webkit-gradient(linear, left top, right top, from(#900758), to(#f81c5a));
+  background: linear-gradient(to right, #900758, #f81c5a);
+
+  .log-wrap {
+    width: 32px;
+    height: 32px;
+    margin: 4px 6px 0 0;
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+  }
+  
+  .search-wrap {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding-top: 6px;
+    position: relative;
+    
+    .search-box{
+      width: 100%;
+      height: 25px;
+      line-height: 25px;
+      padding: 0 12px;
+      border-radius: 12px;
+      color: #ccc;
+      background: -webkit-gradient(linear, left top, right top, from(#70063e), to(#a5123f));
+      background: linear-gradient(to right, #70063e, #a5123f);
+      border: none;
+      &::-webkit-input-placeholder {
+        color: #b38998;
+      }
+      &::-ms-input-placeholder {
+        color: #b38998;
+      }
+    }
+    i {
+      color: #b38998;
+      position: absolute;
+      right: 12px;
+      top: 10px;
+    }
+  }
+
+  .msg-wrap{
+    width: 24px;
+    margin-left: 16px;
+    text-align: center;
+    color: #fff;
+    padding-top: 4px;
+    i {
+      font-size: 24px;
+    }
+    p {
+      font-size: 10px;
+      margin-top: -6px;
+    }
+  }
+}
+// 头部导航
+
+// 轮播图
+.scroll-view {
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  .swiper-container {
+    &::before {
+      @include border1px();
+    }
+    .swiper-wrapper {
+      .swiper-slide {
+        img {
+          width: 6.4rem;
+          height: 2.4rem;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  .site-nav-wrap {
+    height: 56px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    a {
+      .icon {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 50%;
+        font-size: 16px;
+        color: #fff;
+      }
+      .icon-muying {
+        background: #7f47dd;
+      }
+      .icon-fuwuchaoshi {
+        background: #f32363;
+      }
+      .icon-miaosha {
+        background: #d6d623;
+      }
+      .icon-chongzhi {
+        background: #ff8a2f;
+      }
+      p {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+// 轮播图
+
+// 秒杀区域
+.miaosha {
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  .miaosha-hd {
+    height: 0.56rem;
+    padding: $pading11;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #faaf0d;
+    font-size: 0.3rem;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 0.22rem;
+      height: 100%;
+      background: #ff8a2f;
+    }
+
+    &::after {
+      @include border1px();
+    }
+
+    .time {
+      width: 3.3rem;
+      height: 0.56rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 0.24rem;
+      line-height: 100%;
+      .icon-miaosha {
+        font-size: 0.3rem;
+      }
+      .timer {
+        line-height: 100%;
+        text-align: center;
+        font-size: 0;
+        word-spacing: 0.05rem;
+        .timer-num {
+          display: inline-block;
+          width: 0.22rem;
+          height: 0.3rem;
+          line-height: 0.3rem;
+          font-size: 0.24rem;
+          color: #fff;
+          background: #121212;
+        }
+        .timer-gap {
+          font-size: 0.24rem;
+          color: #121212;
+          background: #fff;
+          width: 0.15rem;
+        }
+      }
+    }
+    .more {
+      height: 0.56rem;
+      line-height: 0.56rem;
+      font-size: 0.2rem;
+      a {
+        .icon-gengduo {
+          display: inline-block;
+          width: 0.3rem;
+          height: 0.3rem;
+          color: #fff;
+          background: #ff8a2f;
+          border-radius: 0.04rem;
+          position: relative;
+          top: 0.1rem;
+          &::before {
+            position: absolute;
+            top: -0.1rem;
+            font-size: 0.24rem;
+          }
+        }
+      }
+    }
+  }
+  .miaosha-bd {
+    height: 2.28rem;
+    display: flex;
+    padding: $padding32;
+    justify-content: space-around;
+    align-items: center;
+    .miaosha-bd-item {
+      & > img {
+        width: 1.78rem;
+        height: 1.78rem;
+      }
+      p {
+        width: 1.78rem;
+        height: 0.24rem;
+        line-height: 0.24rem;
+        color:#ec1a5a;
+        font-size: 0;
+        text-align: center;
+        span {
+          font-size: 0.24rem;
+        }
+        img {
+          width: 0.5rem;
+          height: 0.15rem;
+        }
+      }
+    }
+  }
+}
+// 秒杀区域
+
+// 箱包配饰
+.layer-bag {
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  .bag-hd {
+    height: 0.56rem;
+    padding: $pading11;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #804798;
+    font-size: 0.3rem;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 0.22rem;
+      height: 100%;
+      background: #804798;
+    }
+
+    &::after {
+      @include border1px();
+    }
+
+    .bag {
+      width: 1.78rem;
+      height: 0.56rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 0.24rem;
+      line-height: 100%;
+      .icon-xiangbaoleimu {
+        font-size: 0.3rem;
+      }
+    }
+    .more {
+      height: 0.56rem;
+      line-height: 0.56rem;
+      font-size: 0.2rem;
+      a {
+        .icon-gengduo {
+          display: inline-block;
+          width: 0.3rem;
+          height: 0.3rem;
+          color: #fff;
+          background: #804798;
+          border-radius: 0.04rem;
+          position: relative;
+          top: 0.1rem;
+          &::before {
+            position: absolute;
+            top: -0.1rem;
+            font-size: 0.24rem;
+          }
+        }
+      }
+    }
+  }
+  .bag-bd {
+
+    height: 2.52rem;
+    display: flex;
+    padding: $padding32;
+    justify-content: space-around;
+    align-items: center;
+    .bag-bd-l {
+      .bag-bd-item1 img{
+        width: 1.78rem;
+        height: 2.28rem;
+      }
+    }
+    .bag-bd-r {
+      width: 4rem;
+      height: 2.28rem;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-content: space-between;
+      .bag-bd-item2 img, .bag-bd-item5 img {
+        width: 1.12rem;
+        height: 1.03rem;
+      }
+      .bag-bd-item3 img, .bag-bd-item4 img {
+        width: 2.24rem;
+        height: 1.03rem;
+      }
+    }
+  }
+}
+// 箱包配饰
+
+// 运动区域
+.layer-sport {
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  .sport-hd {
+    height: 0.56rem;
+    padding: $pading11;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #faaf0d;
+    font-size: 0.3rem;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 0.22rem;
+      height: 100%;
+      background: #ff8a2f;
+    }
+
+    &::after {
+      @include border1px();
+    }
+
+    .sport {
+      width: 1.22rem;
+      height: 0.56rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 0.24rem;
+      line-height: 100%;
+      .icon-yundong {
+        font-size: 0.3rem;
+      }
+    }
+    .more {
+      height: 0.56rem;
+      line-height: 0.56rem;
+      font-size: 0.2rem;
+      a {
+        .icon-gengduo {
+          display: inline-block;
+          width: 0.3rem;
+          height: 0.3rem;
+          color: #fff;
+          background: #ff8a2f;
+          border-radius: 0.04rem;
+          position: relative;
+          top: 0.1rem;
+          &::before {
+            position: absolute;
+            top: -0.1rem;
+            font-size: 0.24rem;
+          }
+        }
+      }
+    }
+  }
+  .sport-bd {
+
+    height: 2.52rem;
+    display: flex;
+    padding: $padding32;
+    justify-content: space-around;
+    align-items: center;
+    .sport-bd-l {
+      .sport-bd-item1 img{
+        width: 1.78rem;
+        height: 2.28rem;
+      }
+    }
+    .sport-bd-r {
+      width: 4rem;
+      height: 2.28rem;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-content: space-between;
+      .sport-bd-item2 img, .sport-bd-item5 img {
+        width: 1.12rem;
+        height: 1.03rem;
+      }
+      .sport-bd-item3 img, .sport-bd-item4 img {
+        width: 2.24rem;
+        height: 1.03rem;
+      }
+    }
+  }
+}
+// 运动区域
+
+// 底部
+.footer {
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  .footer-list {
+    width: 100%;
+    height: 0.84rem;
+    color: #9b9b9b;
+    background: #171717;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.18rem;
+    .footer-list-item {
+      padding-top: 0.1rem;
+      height: 0.65rem;
+      text-align: center;
+      line-height: 0.25rem;
+      .iconfont {
+        font-size: 0.4rem;
+      }
+    }
+
+  }
+}
+// 底部

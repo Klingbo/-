@@ -1,0 +1,168 @@
+@charset 'utf-8';
+// 引入hotcss的px2rem函数文件
+@import '../lib/HotCss/px2rem.scss';
+@import '_base.scss';
+
+// 定义设计图的宽度。
+$designWidth: 750;
+
+.gap {
+  height:px2rem(10);
+}
+
+.container {
+  background: #eee;
+}
+
+header {
+  height: px2rem(85);
+  line-height: px2rem(85);
+  color: #fff;
+  padding: 0 px2rem(26);
+  background: linear-gradient(to right, #900758, #f81c5a);
+  .top-hd{
+    text-align: center;
+    span {
+      font-size: px2rem(34);
+      font-weight: bolder;
+    }
+    a {
+      float: right;
+      font-size: px2rem(32);
+    }
+  }
+}
+
+main{
+  margin-bottom: px2rem(185);
+  background: #eee;
+  .product-list-item {
+    background: #fff;
+    .item-hd {
+      padding: 0 px2rem(26);
+      height: px2rem(70);
+      line-height: px2rem(70);
+      position: relative;
+      &::before {
+        @include border1px(#beae8d,0,0,1,0);
+      }
+      .shop-name {
+        font-size: px2rem(28);
+      }
+      .icon-duihao {
+        @include duihao;
+      }
+    }
+    .item-bd {
+      padding: px2rem(20) px2rem(26);
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .icon-duihao {
+        flex: 0 0 px2rem(40);
+        @include duihao;
+      }
+      & > img {
+        flex: 0 0 px2rem(185);
+        width: px2rem(185);
+        height: px2rem(185);
+        padding-left: px2rem(22);
+      }
+      .product-info {
+        align-self: flex-start;
+        line-height: 1.2;
+        padding-left: px2rem(20);
+        .product-title {
+        font-size: px2rem(22);
+        }
+        .product-sku {
+          font-size: px2rem(22);
+          .product-sku-title {
+            color: #666;
+          }
+          .product-sku-info {
+            color: #f81c5a
+          }
+        }
+        img {
+          width: px2rem(56);
+          height: px2rem(15);          
+        }
+        .price{
+          font-size: px2rem(28);
+          color: #f81c5a;
+          padding: px2rem(10) 0;
+        }
+        .edit-product {
+          display: flex;
+          justify-content: space-between;
+          font-size: px2rem(28);
+          .product-num {
+            position: relative;
+            td {
+              border: 1px solid #ccc;
+              width: px2rem(40);
+              text-align: center;
+            }
+          }
+          .icon-bianji {
+            font-size: px2rem(36);
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  .product-account {
+    background: #fff;
+    padding: 0 0 0 px2rem(26);
+    height: px2rem(88);
+    line-height: px2rem(88);
+    .icon-duihao {
+      @include duihao;
+    }
+    .cash-info{
+      float: right;
+      font-size: px2rem(30);
+      display: flex;
+      justify-content: flex-end;
+      .money {
+        display: inline-block;
+        width: px2rem(140);
+      }
+      .wallet {
+        color: #fff;
+        width: px2rem(222);
+        background: linear-gradient(to right, #900758, #f81c5a);
+        text-align: center;
+      }
+    }
+  }
+  .menu {
+    .menu-list {
+      height: px2rem(84);
+      color: #9b9b9b;
+      background: #171717;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: px2rem(18);
+      .menu-list-item {
+        padding-top: px2rem(10);
+        height: px2rem(65);
+        text-align: center;
+        line-height: px2rem(25);
+        .iconfont {
+          font-size: px2rem(40);
+        }
+      }
+  
+    }
+  }
+}
