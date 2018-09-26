@@ -1,0 +1,224 @@
+.gap {
+  height: 0.21333rem;
+}
+
+.container {
+  background: #eee;
+}
+
+header {
+  height: 1.81333rem;
+  line-height: 1.81333rem;
+  color: #fff;
+  padding: 0 0.55467rem;
+  background: linear-gradient(to right, #900758, #f81c5a);
+}
+
+header .top-hd {
+  text-align: center;
+}
+
+header .top-hd span {
+  font-size: 0.72533rem;
+  font-weight: bolder;
+}
+
+header .top-hd a {
+  float: right;
+  font-size: 0.68267rem;
+}
+
+main {
+  margin-bottom: 3.94667rem;
+  background: #eee;
+}
+
+main .product-list-item {
+  background: #fff;
+}
+
+main .product-list-item .item-hd {
+  padding: 0 0.55467rem;
+  height: 1.49333rem;
+  line-height: 1.49333rem;
+  position: relative;
+}
+
+main .product-list-item .item-hd::before {
+  content: "";
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #beae8d;
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+main .product-list-item .item-hd .shop-name {
+  font-size: 0.59733rem;
+}
+
+main .product-list-item .item-hd .icon-duihao {
+  display: inline-block;
+  width: 0.85333rem;
+  height: 0.85333rem;
+  line-height: 0.85333rem;
+  border-radius: 50%;
+  background: #ec1a5a;
+  color: #fff;
+  font-size: 0.59733rem;
+  text-align: center;
+}
+
+main .product-list-item .item-bd {
+  padding: 0.42667rem 0.55467rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main .product-list-item .item-bd .icon-duihao {
+  flex: 0 0 0.85333rem;
+  display: inline-block;
+  width: 0.85333rem;
+  height: 0.85333rem;
+  line-height: 0.85333rem;
+  border-radius: 50%;
+  background: #ec1a5a;
+  color: #fff;
+  font-size: 0.59733rem;
+  text-align: center;
+}
+
+main .product-list-item .item-bd > img {
+  flex: 0 0 3.94667rem;
+  width: 3.94667rem;
+  height: 3.94667rem;
+  padding-left: 0.46933rem;
+}
+
+main .product-list-item .item-bd .product-info {
+  align-self: flex-start;
+  line-height: 1.2;
+  padding-left: 0.42667rem;
+}
+
+main .product-list-item .item-bd .product-info .product-title {
+  font-size: 0.46933rem;
+}
+
+main .product-list-item .item-bd .product-info .product-sku {
+  font-size: 0.46933rem;
+}
+
+main .product-list-item .item-bd .product-info .product-sku .product-sku-title {
+  color: #666;
+}
+
+main .product-list-item .item-bd .product-info .product-sku .product-sku-info {
+  color: #f81c5a;
+}
+
+main .product-list-item .item-bd .product-info img {
+  width: 1.19467rem;
+  height: 0.32rem;
+}
+
+main .product-list-item .item-bd .product-info .price {
+  font-size: 0.59733rem;
+  color: #f81c5a;
+  padding: 0.21333rem 0;
+}
+
+main .product-list-item .item-bd .product-info .edit-product {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.59733rem;
+}
+
+main .product-list-item .item-bd .product-info .edit-product .product-num {
+  position: relative;
+}
+
+main .product-list-item .item-bd .product-info .edit-product .product-num td {
+  border: 1px solid #ccc;
+  width: 0.85333rem;
+  text-align: center;
+}
+
+main .product-list-item .item-bd .product-info .edit-product .icon-bianji {
+  font-size: 0.768rem;
+}
+
+footer {
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .product-account {
+  background: #fff;
+  padding: 0 0 0 0.55467rem;
+  height: 1.87733rem;
+  line-height: 1.87733rem;
+}
+
+footer .product-account .icon-duihao {
+  display: inline-block;
+  width: 0.85333rem;
+  height: 0.85333rem;
+  line-height: 0.85333rem;
+  border-radius: 50%;
+  background: #ec1a5a;
+  color: #fff;
+  font-size: 0.59733rem;
+  text-align: center;
+}
+
+footer .product-account .cash-info {
+  float: right;
+  font-size: 0.64rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .product-account .cash-info .money {
+  display: inline-block;
+  width: 2.98667rem;
+}
+
+footer .product-account .cash-info .wallet {
+  color: #fff;
+  width: 4.736rem;
+  background: linear-gradient(to right, #900758, #f81c5a);
+  text-align: center;
+}
+
+footer .menu .menu-list {
+  height: 1.792rem;
+  color: #9b9b9b;
+  background: #171717;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.384rem;
+}
+
+footer .menu .menu-list .menu-list-item {
+  padding-top: 0.21333rem;
+  height: 1.38667rem;
+  text-align: center;
+  line-height: 0.53333rem;
+}
+
+footer .menu .menu-list .menu-list-item .iconfont {
+  font-size: 0.85333rem;
+}
