@@ -33,3 +33,9 @@
 + 用js写了一个倒计时的小脚本;
 + 点击[这里](https://klingbo.github.io/IFE-Homework/you_xuan_app/src/index.html)可以预览首页;
 + 点击[这里](https://klingbo.github.io/IFE-Homework/you_xuan_app/src/cart.html)可以预览购物车.
+
+### Complex_Web_Page是作业复杂页面布局的成果。
++ 我尝试了gulp工程化，自己配置了gulp-sass转化scss文件，imagemin压缩图片
++ 利用iconfont把所有的小图标转化为样式
++ 主要运用了flex弹性盒子布局，辅以浮动跟定位。
+点击[这里](https://klingbo.github.io/IFE-Homework/Complex_Web_Page/index.html)可以进行预览
