@@ -39,3 +39,8 @@
 + 利用iconfont把所有的小图标转化为样式
 + 主要运用了flex弹性盒子布局，辅以浮动跟定位。
 点击[这里](https://klingbo.github.io/IFE-Homework/Complex_Web_Page/index.html)可以进行预览
+
+### table存放的是动态生成表格的页面。勾选页面上的地区，产品，利用js动态生成表格。
++ 在这个小项目里，我先在主页中完成了整个项目，然后把各函数打包到单独的js文件，最后用webpack打包引入。
++ 在打包输出函数要注意输出方式在输出过程遇到使用exports.函数名=函数的方式，会导致引用时函数变成一个对象，导致函数引用失败，使用module.exports=函数名的方式可以避免错误。
++ 点击[这里](https://klingbo.github.io/IFE-Homework/table/table-1.html)可以预览
