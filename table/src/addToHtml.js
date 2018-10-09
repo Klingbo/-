@@ -2,8 +2,8 @@ function addToHtml(dataList, targetEle) {
   let temp = "";
   dataList.forEach((value, index) => {
     temp += `<tr>
-                <td>${value.product}</td>
                 <td>${value.region}</td>
+                <td>${value.product}</td>
                 <td>${value.sale[0]}</td>
                 <td>${value.sale[1]}</td>
                 <td>${value.sale[2]}</td>
